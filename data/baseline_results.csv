@@ -1,0 +1,6 @@
+Model,RMSE,R2
+Linear Regression (Top Features),60.1521,-0.0017
+Random Forest (Top Features),60.5943,-0.0165
+XGBoost (Top Features),61.4067,-0.0439
+Random Forest (Autoencoder Features),56.6124,0.1127
+Random Forest (PCA Features),35.74973285590387,0.6461712554217252
