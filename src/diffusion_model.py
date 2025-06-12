@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-print("✅ diffusion_model.py is being loaded")
+print("diffusion_model.py is being loaded")
 
 class Simple1DDiffusionModel(nn.Module):
     def __init__(self, seq_len):
