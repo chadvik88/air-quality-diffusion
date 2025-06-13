@@ -29,7 +29,18 @@ This project focuses on predicting **PM2.5 concentrations** using a combination 
 
 ## Project Structure
 
-<pre> ```bash air-quality-diffusion/ │ ├── data/ # Preprocessed and scaled input datasets ├── models/ # Saved model weights (.pth, .json, .pkl) ├── notebooks/ # Core notebooks (see below) ├── src/ # Source code │ └── diffusion_model.py # DDPM architecture and forward pass logic │ ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>d 
+```bash
+air-quality-diffusion/
+│
+├── data/ # Preprocessed and scaled input datasets
+├── models/ # Saved model weights (.pth, .json, .pkl)
+├── notebooks/ # Core notebooks (see below)
+├── src/ # Source code
+│ └── diffusion_model.py # DDPM architecture and forward pass logic
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+```
 
 ---
 
